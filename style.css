@@ -25,7 +25,7 @@ body {
     animation: BG-scroll linear;
     animation-timeline: view();
     height: 800px;
-    max-width: 1500px;
+    width: 1500px;
 }
 
 .box1 {
@@ -34,16 +34,22 @@ body {
     left: 0;
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 150%;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
     flex-wrap: wrap;
+}
+
+.box1-1 {
+    
+    width: 100%;
+    height: 25%;
 }
 
 .BIGname {
     animation: change-color linear;
     animation-timeline: view();
-    animation-range: cover 35% contain 100%;
+    animation-range: cover 28% contain 100%;
     position: sticky;
     top: 0;
     height: 145px;
@@ -172,12 +178,12 @@ body {
 
 @keyframes change-color {
     from {
-        color: #ffffffb0;
+        color: white;
         -webkit-text-stroke: 2px black;
     }
     to {
-        color: white;
-        -webkit-text-stroke: 2px black;
+        color: #0000007a;
+        -webkit-text-stroke: 2px rgb(255, 255, 255);
     }
 }
 
