@@ -49,7 +49,7 @@ body {
 .BIGname {
     animation: change-color linear;
     animation-timeline: view();
-    animation-range: cover 28% contain 100%;
+    animation-range: cover 0% contain 100%;
     position: sticky;
     top: 0;
     height: 145px;
@@ -177,11 +177,15 @@ body {
 }
 
 @keyframes change-color {
-    from {
+    0% {
         color: white;
         -webkit-text-stroke: 2px black;
     }
-    to {
+    50% {
+        color: white;
+        -webkit-text-stroke: 2px black;
+    }
+    100% {
         color: #0000007a;
         -webkit-text-stroke: 2px rgb(255, 255, 255);
     }
