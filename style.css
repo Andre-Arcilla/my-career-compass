@@ -25,7 +25,7 @@ body {
     animation: BG-scroll linear;
     animation-timeline: view();
     height: 800px;
-    width: 1500px;
+    width: 1vw;
 }
 
 .box1 {
