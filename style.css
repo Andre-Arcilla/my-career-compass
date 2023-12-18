@@ -24,8 +24,9 @@ body {
     background-attachment: fixed; 
     animation: BG-scroll linear;
     animation-timeline: view();
+    overflow-x: hidden;
     height: 800px;
-    width: 1vw;
+    width: 100vw;
 }
 
 .box1 {
