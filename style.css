@@ -24,8 +24,8 @@ body {
     background-attachment: fixed; 
     animation: BG-scroll linear;
     animation-timeline: view();
-    height: 1vw;
-    width: 1vw;
+    height: 800px;
+    max-width: 1500px;
 }
 
 .box1 {
