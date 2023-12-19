@@ -6,44 +6,79 @@
 </head>
 <body>
     <div class="container2">
-        <div class="BIGname2">
+
+        <a class="back hover" href="index.html">
+            <div class="arrow">
+            </div>
+        </a>
+
+        <div class="BIGname2" style="letter-spacing: 0.25rem; font-size: clamp(1rem, 5rem, 3.3rem); line-height: 50px;">
             TECHNICAL-VOCATIONAL-LIVELIHOOD TRACK
         </div>
         <div class="box3">
 
-            <div class="frame grid hover">
-                <img class="strandimg" src="images/stem.png">
+            <div class="frame grid hover" id="btn-cpg">
+                <img class="strandimg" src="images/prog.png">
                 <div class="text">
-                    STEM
+                    CPG
                     <div class="textspacer"></div>
                 </div>
             </div>
             
-            <div class="frame grid hover">
-                <img class="strandimg" src="images/humss.png">
-                <div class="text" style="font-size: 32px;">
-                    HUMSS
+            <div class="frame grid hover" id="btn-HE">
+                <img class="strandimg" src="images/homeeco.png">
+                <div class="text xlong" style="font-size: 23px;">
+                    HOME ECONOMICS
                     <div class="textspacer"></div>
                 </div>
             </div>
             
-            <div class="frame grid hover">
-                <img class="strandimg" src="images/abm.png">
-                <div class="text">
-                    ABM
+            <div class="frame grid hover" id="btn-agri-fishery">
+                <img class="strandimg" src="images/agri-fishery.png">
+                <div class="text xlong">
+                    AGRI- FISHERY
                     <div class="textspacer"></div>
                 </div>
             </div>
 
-            <div class="frame grid hover">
-                <img class="strandimg" src="images/gas.png">
-                <div class="text">
-                    GAS
+            <div class="frame grid hover" id="btn-industrial">
+                <img class="strandimg" src="images/industrial.png">
+                <div class="text xlong" style="font-size: 23px;">
+                    INDUSTRIAL
                     <div class="textspacer"></div>
                 </div>
             </div>
             
         </div>
     </div>
+
+
+    <div id="modal-cpg" class="backdrop">
+        <div class="popup">
+
+        </div>
+    </div>
+
+    <div id="modal-HE" class="backdrop" >
+        <div class="popup" style="background-color: bisque;">
+
+        </div>
+    </div>
+
+    <div id="modal-agri-fishery" class="backdrop" >
+        <div class="popup" style="background-color: rgb(255, 0, 0);">
+
+        </div>
+    </div>
+
+    <div id="modal-industrial" class="backdrop" >
+        <div class="popup" style="background-color: rgb(183, 0, 255);">
+
+        </div>
+    </div>
+
+
+
+<script src="tvl.js"></script>
 </body>
 </html>

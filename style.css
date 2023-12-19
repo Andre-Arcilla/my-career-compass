@@ -50,9 +50,38 @@ body {
 }
 
 .box1-1 {
-    
+    display: flex;
     width: 100%;
     height: 35vh;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.about-us {
+    display: flex;
+    align-items: end;
+    width: fit-content;
+    height: fit-content;
+    -webkit-text-stroke: 2px #000000;
+    font-family: Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 1em;
+    padding-right: 3em;
+}
+
+.contact {
+    display: flex;
+    align-items: end;
+    width: fit-content;
+    height: fit-content;
+    -webkit-text-stroke: 2px #000000;
+    font-family: Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 1em;
 }
 
 .box1-2 {
@@ -87,7 +116,7 @@ body {
     min-width: 450px;
     height: 70vh;
     border-radius: 75px 75px 0px 0px;
-    background: rgb(33 63 109 / 74%);
+    background: #213f6dbd;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
@@ -173,6 +202,30 @@ body {
     justify-content: flex-start;
 }
 
+.back {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 50px;
+    background-color: #3466b1bd;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    position: relative;
+    left: 4px;
+    width: 20px;
+    height: 20px;
+    border: 10px solid rgb(255 255 255);
+    border-bottom: 0px;
+    border-right: 0px;
+    transform: rotate(-45deg);
+}
+
 .BIGname2 {
     display: flex;
     height: 200px;
@@ -223,9 +276,10 @@ body {
     background-color: rgb(58, 58, 58);
     display: flex;
     justify-content: center;
-    margin: 50px auto;
-    width: 1150px;
-    height: 600px;
+    margin: 15vh auto;
+    width: 70vw;
+    min-width: 450px;
+    height: 70vh;
     border-radius: 15px;
     border: 5px solid rgb(0, 0, 0);
     padding: 20px;

@@ -6,44 +6,79 @@
 </head>
 <body>
     <div class="container2">
-        <div class="BIGname2">
+
+        <a class="back hover" href="index.html">
+            <div class="arrow">
+            </div>
+        </a>
+
+        <div class="BIGname2" style="letter-spacing: 0.175rem;">
             ARTS & DESIGN TRACK
         </div>
+
+
         <div class="box3">
-
-            <div class="frame grid hover">
-                <img class="strandimg" src="images/stem.png">
-                <div class="text">
-                    STEM
+            <div class="frame grid hover" id="btn-theater">
+                <img class="strandimg" src="images/theater.png">
+                <div class="text long">
+                    THEATER
                     <div class="textspacer"></div>
                 </div>
             </div>
             
-            <div class="frame grid hover">
-                <img class="strandimg" src="images/humss.png">
+            <div class="frame grid hover" id="btn-film">
+                <img class="strandimg" src="images/film.png">
                 <div class="text" style="font-size: 32px;">
-                    HUMSS
+                    FILM
                     <div class="textspacer"></div>
                 </div>
             </div>
             
-            <div class="frame grid hover">
-                <img class="strandimg" src="images/abm.png">
+            <div class="frame grid hover" id="btn-music">
+                <img class="strandimg" src="images/music.png">
                 <div class="text">
-                    ABM
+                    MUSIC
                     <div class="textspacer"></div>
                 </div>
             </div>
 
-            <div class="frame grid hover">
-                <img class="strandimg" src="images/gas.png">
+            <div class="frame grid hover" id="btn-vama">
+                <img class="strandimg" src="images/vama.png">
                 <div class="text">
-                    GAS
+                    VAMA
                     <div class="textspacer"></div>
                 </div>
             </div>
-            
         </div>
     </div>
+
+    
+    <div id="modal-theater" class="backdrop">
+        <div class="popup">
+
+        </div>
+    </div>
+
+    <div id="modal-film" class="backdrop" >
+        <div class="popup" style="background-color: bisque;">
+
+        </div>
+    </div>
+
+    <div id="modal-music" class="backdrop" >
+        <div class="popup" style="background-color: rgb(255, 0, 0);">
+
+        </div>
+    </div>
+
+    <div id="modal-vama" class="backdrop" >
+        <div class="popup" style="background-color: rgb(183, 0, 255);">
+
+        </div>
+    </div>
+
+
+
+<script src="arts.js"></script>
 </body>
 </html>
