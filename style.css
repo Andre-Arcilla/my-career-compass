@@ -353,6 +353,24 @@ hr {
     background-position: center center;
 }
 
+.humss {
+    background-image: url(images/humss_BG.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.abm {
+    background-image: url(images/abm_BG.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.gas {
+    background-image: url(images/gas_BG.jpg);
+    background-size: cover;
+    background-position: -15rem center;
+}
+
 .strandname {
     font-size: 60px;
     padding: 30px;
