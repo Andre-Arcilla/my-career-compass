@@ -371,6 +371,18 @@ hr {
     background-position: -15rem center;
 }
 
+.theater {
+    background-image: url(images/theater_BG.jpg);
+    background-size: cover;
+    background-position: -15rem center;
+}
+
+.film {
+    background-image: url(images/film_BG.jpg);
+    background-size: cover;
+    background-position: -15rem center;
+}
+
 .strandname {
     font-size: 60px;
     padding: 30px;
